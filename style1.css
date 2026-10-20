@@ -1,0 +1,45 @@
+html, body {
+            background-color: black;
+            color: yellow;
+            font-family: Arial, sans-serif;
+        }
+body {
+    min-height: 150vh;
+  
+}
+a {
+    color: yellow;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 50px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    /* left: 0;
+    width: 100%; */
+    transform: translateY(-50%);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lower {
+    position: absolute;
+    top: 95%;
+    transform: translateY(-50%);
+
+ 
+}
+
+.buybook{
+    position: absolute;
+    top: 115%;
+    transform: translateY(-50%);
+}
+
+
+.buybook a {
+    font-size: 20px;
+}
