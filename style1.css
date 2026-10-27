@@ -43,3 +43,7 @@ a {
 .buybook a {
     font-size: 20px;
 }
+
+.center img {
+    cursor: pointer;
+}
